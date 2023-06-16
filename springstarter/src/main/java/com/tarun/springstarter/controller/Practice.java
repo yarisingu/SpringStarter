@@ -15,5 +15,4 @@ public class Practice {
     {
          res.sendRedirect("https://www.google.com/");
     }
-    
 }
