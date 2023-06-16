@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringstarterApplication<springstarter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.tarun.springstarter.SpringstarterApplication",
+            "projectName": "springstarter",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
