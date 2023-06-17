@@ -2,11 +2,14 @@ package com.tarun.springstarter.dto;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Component;
 
+//import lombok.Builder;
 import lombok.Data;
 
 @Document(collection = "users")
 @Data
+@Component
 public class User {
     @Id
     private String id;
@@ -14,6 +17,4 @@ public class User {
     private int age;
     private String mobileNo;
     private String email;
-
-    // Constructors, getters, and setters
 }
